@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("https://pbs.twimg.com/card_img/1591181954497380352/fSQjZxJk?format=png&name=small");
+    background-size:cover;
+    font-family: 'Times New Roman', Times, serif;
+    color:aliceblue
+}
+label{
+    font-weight: bold;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+fieldset{
+
+    border-color: brown;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    
+}
+input#submit:hover{
+    background-color: orange;
+    transition: 2s;
+}
+p{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+a{
+    color:darkgrey;
+
+}
+a:active{
+    color: chartreuse;
+}

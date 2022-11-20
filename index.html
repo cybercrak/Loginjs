@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="styles.css">
+<script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-auth-compat.js"></script>
+</head>
+
+<body>
+    <h1>Sign-In</h1>
+    <!-- <form action = "index.js" method="post"> -->
+    <fieldset>
+        <!-- <div><label for="username">UserName: </label><input name="name1" placeholder="Enter Name"id="username" type="text" required></div> -->
+        <div><label for="email">E-mail id: </label>  <input name="email"placeholder="Enter E-mail"id="email" type="email" required></div>
+        <div><label for="password">Password: </label><input name="password"placeholder="Enter Password"id="password" type="password" required></div>
+        <!-- <div><label for="confirmpassword">Confirm Password: </label> <input name="cpassword" id="confirmpassword" placeholder="Type Password again"type="password" required></div> -->
+        <div><input type="submit" id="submit"></div>
+    </fieldset>
+    <p> Already have an existing account?<a href="login.html">Click here</a></p>
+</body>
+<script src="index.js"></script>
+</html>

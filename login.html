@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="loginpage.css">
+    <script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-auth-compat.js"></script>
+</head>
+<body>
+    <h1>LOGIN</h1>
+    
+    <fieldset>
+        <div><label for="email">E-mail id: </label>  <input name="email" placeholder="Enter E-mail"id="lemail" type="email" required></div>
+        <div><label for="password">Password: </label><input name="password"placeholder="Enter Password"id="lpassword" type="password" required></div>
+        <button id="login" onclick="signIn()">login</button>
+        <!-- <div><input type="submit" id="login"></div> -->
+    </fieldset>
+    <p> Didn't have an account?<a href="index.html">Click here</a></p>
+    <script src="index.js"></script>
+</body>
+</html>
